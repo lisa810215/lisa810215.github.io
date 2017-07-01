@@ -2,25 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <title>Lisa的履歷</title>
     <style> 
-    * {
-        margin: 0;
-        padding:0;
-        list-style:none;
-        letter-spacing:.05em;
-    }
-    
+        * {
+            margin: 0;
+            padding:0;
+            list-style:none;
+            letter-spacing:.05em;
+        }
+        
         body {
-            font-family: "source-han-sans-traditional", sans-serif, "微軟正黑體"; 
-    }
+            font-family: "source-han-sans-traditional", sans-serif, "Roman"; 
+        }
 
         header{
             padding: 30px 30px 0;
-    }
-    
-        img {max-width:100%;
-            display: block;} 
+        }
+        
+        img {
+            max-width:100%;
+            display: block;
+        } 
         h1{
             font-size:1.2em; 
             color:white;
@@ -29,8 +32,24 @@
             margin-right: 10px;
             margin-top: -1.5em;
             line-height: 1.5em;
+        }
+        .introduction{
+            line-height: 1.5em;
+            padding: 20px 30px 0;
+            font-size: 2em;
+            text-shadow: 3px 1px 5px black;
+        }
+        .introductioncontent{
+            line-height: 1.5em;
+            padding: 20px 30px 15px;
+            font-size: 1em
+        }
+        footer{
+            background-color: orange;
+            color: white;
+            font-size: 1em;
+        }
 
-    }
 
     </style>
     </head>
@@ -39,11 +58,19 @@
         <img src="images/lisa.jpg" alt="Lisa的照片"> 
         <h1>林佳蓉 Lisa Lin </h1>
     </header>
-    <p>
-        About me <br>
-        您好，我是政治大學國貿碩一的林佳蓉。<br>
-
+    <p class="introduction">
+        About  
+    </p>
+    <p class="introductioncontent">
+        您好，<br>
+        我是政治大學國貿碩一的林佳蓉。<br>
     </p>
 
+    <footer>
+            Contact Information <br>
+            lisa810215@gmail.com
+    </footer>
+
 </body>
+
 </html>
