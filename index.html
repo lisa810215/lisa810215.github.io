@@ -18,22 +18,36 @@
             font-family: "Microsoft JhengHei", "sans-serif", "微軟正黑體"; 
         }
 
-        header{
-            padding: 30px 30px 10px;
-        }
-        
         img {
             max-width:100%;
             display: block;
         } 
+        .motto{
+            position:relative;
+
+        }
+        .motto p{
+            position: absolute;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            font-size: 1.3em;
+            color: white;
+            text-shadow: 10px black; 
+
+        }
+
+
+        .profile{
+            max-width: 100px;
+            border-radius: 10%;
+        }
         h1{
-            font-size:1.2em; 
-            color:white;
+            font-size:2em; 
+            color:black;
             text-align: right;
-            text-shadow: 0px 0px 10px black;
             margin-right: 20px;
             margin-top: -70px;
-            line-height: 1.5em;
         }
         .introduction{
             line-height: 1.1em;
@@ -82,19 +96,20 @@
             font-size: 1em;
         }
 
-        img{
-            border-radius: 10%;
-        }
-
     </style>
     </head>
     <body>
     <header>
-        <img src="images/lisa.jpg" alt="Lisa的照片"> 
-
-        <h1>林佳蓉 <br>
-            Chia Jung Lin </h1>
+        
+        <div class="motto">
+           <img src="images/封面照.png" alt="我的座右銘" > 
+           <p>"跌倒了，記得爬起來"</p> 
+        </div>
+        <img class="profile" src="images/F1000010.jpg" alt="林佳蓉的照片">
+        <h1>林佳蓉 Chia Jung Lin </h1>
     </header>
+    
+
     <p class="introduction">
         關於我 About  
     </p>
