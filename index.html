@@ -6,10 +6,12 @@
     <title>Lisa的履歷</title>
     <style> 
         * {
+            letter-spacing:.05em;
+        }
+
+        body, h1, h2, h3, h4, h5, h6, p {
             margin: 0;
             padding:0;
-            list-style:none;
-            letter-spacing:.05em;
         }
         
         body {
@@ -29,51 +31,49 @@
             color:white;
             text-align: right;
             text-shadow: 0px 0px 10px black;
-            margin-right: 10px;
-            margin-top: -3.5em;
+            margin-right: 20px;
+            margin-top: -70px;
             line-height: 1.5em;
         }
         .introduction{
-            line-height: 1.5em;
-            padding: 8px 30px 10px;
+            line-height: 1.1em;
+            padding: 8px 30px 1px;
             font-size: 2em;
-            background-color: orange;
-            background-position: center;
-            background-size: 0.8em;
-            margin-right: 20px;
-            margin-top: 10px;
+            border-bottom: 5px solid orange;
+            margin-top: 20px;
+
         }
         .introductioncontent{
             line-height: 1.5em;
             padding: 20px 30px 15px;
-            font-size: 1em;
+            font-size: 1.4em;
             
 
         }
         .education{
-            line-height:1.5em;
+            line-height:0.6em;
             padding: 8px 20px 10px;
             font-size: 2em;
-            background-color: orange;
-            background-position: center;
+            border-bottom: 5px solid orange;
         }
         .educationcontent{
             line-height:1.5em;
             padding: 8px 30px;
-            font-size: 1em;
+            font-size: 1.4em;
+            margin-left: 15px;
         }
         .leader{
-            line-height: 2em;
-            padding: 8px 5px;
-            font-size: 1.6em;
-            background-color: orange;
-            background-position: center;
+            line-height: 0.6em;
+            padding: 8px 20px 10px;
+            font-size: 2em;
+            border-bottom: 5px solid orange;
 
         }
         .leadercontent{
             line-height: 2em;
-            padding:8px 20px 10px;
-            font-size: 1.5em;
+            padding:20px 20px 20px;
+            font-size: 1.4em;
+            margin-left: 15px;
         }
            
         footer{
@@ -82,25 +82,29 @@
             font-size: 1em;
         }
 
+        img{
+            border-radius: 10%;
+        }
 
     </style>
     </head>
     <body>
     <header>
         <img src="images/lisa.jpg" alt="Lisa的照片"> 
+
         <h1>林佳蓉 <br>
             Chia Jung Lin </h1>
     </header>
     <p class="introduction">
-        關於我  
+        關於我 About  
     </p>
     <p class="introductioncontent">
-        您好，<br>
-    
+        
         我的個性認真，既然要做就做到最好，喜歡挑戰自我。我認知到在大學裡，心智的磨練與團隊合作是不可或缺的。我在課外活動中(擔任活動總召、參與服務性營隊、加入系上球隊)發現自己的不足並加以改善。大學就像一個小社會，學習與他人建立良好的關係、學習獨立、學習成為一個附加價值高的人。<br>
-        2016年與夥伴成立saySE新創團隊，以lean startup的方式打造東南亞語言線上學習平台。<br> 
-
-        點選<a href="https://www.sayselanguage.com/">
+        <br>
+        2016年與夥伴成立saySE新創團隊，以lean startup的方式打造東南亞語言線上學習平台。<br>
+        <br>
+        <a href="https://www.sayselanguage.com/">
          saySE官方網站</a>是我們團隊的第一個課程計畫
 
     </p>
@@ -108,21 +112,61 @@
         學經歷 Education
     </p>
 
-    <p class="educationcontent">
-        國立政治大學 <br>
-        國際經營與貿易學系 碩士班 <br>
-        國立政治大學 <br>
-        英國語文學系 學士班 <br>
-        
+    <ol class="educationcontent">
+        <li>
+            <h4>國立政治大學</h4>
+            <ul>
+                <li>國際經營與貿易學系 碩士班</li> 
+            </ul>
+        </li>
+
+        <li>
+            <h4>法國圖盧茲商學院</h4>
+            <ul>
+                <li>交換學生</li>
+            </ul>
+        </li>
+
+        <li>
+            <h4>國立政治大學</h4>
+            <ul>
+                <li>英國語文學系 學士班</li>
+            </ul>
+        </li>
+    </ol>   
     </p>
     <p class="leader">
         領導經驗 Leadership
     </p>
-    <ul class="leadercontent">
-        政大國貿所招生說明會 總負責人
-             <li>27位夥伴，籌辦北中南五場招說會</li>
-             <li>經營粉絲專頁 拍攝宣傳影片</li>   
-    </ul>
+    
+    <ol class="leadercontent">
+        <li>
+            <h4>研究所時期</h4>
+            2016.12<br>
+            saySE新創團隊 共同創辦人
+            <ul>
+                <li>東南亞語言線上學習平台</li>
+                <li>2017年東南亞青創周末競賽 第二名</li>
+            </ul>
+            2016.05-09<br>
+            政大國貿所招說會 總召集人
+             <ul>
+                <li>27位夥伴，籌辦北中南五場招說會</li>
+                <li>經營粉絲專頁 拍攝宣傳影片</li>
+            </ul> 
+         </li> 
+         <li>
+             <h4>大學時期</h4>
+             2010.09-2011.06<br>
+             政治大學希望閱讀服務課程 總召集人
+             <ul>
+                 <li>籌辦深坑、石碇國小英語閱讀營</li>
+
+             </ul>
+
+
+         </li>
+    </ol>
     
 
 
