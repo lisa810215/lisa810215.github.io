@@ -96,7 +96,43 @@
             color: white;
             font-size: 1em;
         }
-   
+        .educationcontent{
+            list-style-type: none;
+        }
+
+        .educationcontent >li {
+            position: relative;
+            padding: 10px 0px 10px 35px;
+        }
+
+        .educationcontent >li::before{
+            content:"";
+            position:absolute;
+            width:10px;
+            height:10px;
+            background-color: #000;
+            border-radius: 50%;
+            top:20px;
+            left:15px;
+        }
+
+        .educationcontent >li::after{
+            content:"";
+            position:absolute;
+            background-color: #000;
+            width:3px;
+            bottom:0;
+            top:0px;
+            left:18px;
+            
+        }
+        .educationcontent >li:first-child::after{
+            top:20px;
+        }
+        
+        .educationcontent >li:last-child::after{
+            height: 20px;
+        }
     </style>
     </head>
     <body>
